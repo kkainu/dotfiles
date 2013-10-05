@@ -1,2 +1,2 @@
 # min hr mday month wday command 
-0	*/2	*	*	*	/Users/kkainu/.dotfiles/cron.d/areena-rsync.sh
+0	*/2	*	*	*	/Users/kkainu/.cron.d/areena-rsync.sh
