@@ -1,0 +1,2 @@
+# min hr mday month wday command 
+*	*	*	*	*	/bin/echo kalle > /Users/kkainu/cron.log 2>&1
