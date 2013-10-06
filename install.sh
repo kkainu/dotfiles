@@ -6,7 +6,7 @@ olddir=~/.dotfiles_old
 mkdir -p $olddir
 cd $dir
 
-for file in $(find .  ! -name . -maxdepth 1 ! -name install.sh ! -name .git); do
+for file in $(find .  ! -name . -maxdepth 1 ! -name install.sh ! -name .git ! -name README.md); do
     dotfile=$(basename $file)
     echo "Moving any existing dotfiles from ~ to $olddir"
     mv ~/.$dotfile $olddir/

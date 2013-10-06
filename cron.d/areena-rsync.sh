@@ -1,1 +1,1 @@
-rsync -av /Users/kkainu/Desktop/Areena/ /Volumes/USB2/Kids/ > /Users/kkainu/cron.log 2>&1
+rsync -av /Users/kkainu/Desktop/Areena/ /Volumes/USB2/Kids/ > ~/.cron.d/cron.log 2>&1
