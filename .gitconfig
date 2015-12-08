@@ -15,6 +15,7 @@
 [core]
 	quotepath = false
 	excludesfile = /Users/kkainu/.gitignore_global
+	precomposeunicode = false
 [rerere]
 	enabled = 1
 [push]
