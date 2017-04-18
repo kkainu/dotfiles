@@ -12,10 +12,12 @@
 	dfc = diff --cached
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	vlog = log --graph --full-history --all --oneline --decorate=full
+	exec = "!exec "
 [core]
 	quotepath = false
 	excludesfile = /Users/kkainu/.gitignore_global
 	precomposeunicode = false
+	pager = less -SFR
 [rerere]
 	enabled = 1
 [push]
@@ -39,3 +41,5 @@
 	prompt = false
 [diff]
 	tool = Kaleidoscope
+[credential]
+	helper = osxkeychain
